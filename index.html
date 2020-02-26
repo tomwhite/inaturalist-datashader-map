@@ -13,6 +13,11 @@
     <!-- Opacity controls: https://github.com/lizardtechblog/Leaflet.OpacityControls -->
     <link rel="stylesheet" href="lib/opacity/Control.Opacity.css" />
     <script src="lib/opacity/Control.Opacity.js"></script>
+
+    <!-- uncomment to add screenshot button -->
+    <!--
+    <script src="https://unpkg.com/leaflet-simple-map-screenshoter"></script>
+    -->
     <style>
         html, body {
             margin: 0;
@@ -97,6 +102,9 @@
         map.addControl(lowerOpacity);
         map.addControl(higherOpacity);
         higherOpacity.setOpacityLayer(new OpacityLayers([terrain, streets, satellite]));
+
+        // uncomment to add screenshot button
+        //L.simpleMapScreenshoter().addTo(map)
     </script>
   </body>
 </html>

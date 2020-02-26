@@ -1,0 +1,5 @@
+name: inaturalist
+channels:
+  - defaults
+dependencies:
+  - datashader=0.10.0

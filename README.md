@@ -1,5 +1,11 @@
 # iNaturalist Datashader Map
 
+A zoomable map of iNaturalist observations made using [Datashader](https://datashader.org/) and [Leaflet](https://leafletjs.com/).
+
+<a href="https://storage.googleapis.com/inaturalist-datashader-map/index.html"><img src="inaturalist-observations.png" alt="iNaturalist observations"/></a>
+
+More: [interactive map](https://storage.googleapis.com/inaturalist-datashader-map/index.html), [blog post](http://tom-e-white.com/datavision/09-inaturalist-observations.html).
+
 ## How to build the visualization
 
 iNaturalist makes available a full dataset of observations, which is what I used to generate the map.
